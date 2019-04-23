@@ -1,3 +1,4 @@
+##Precompiled DLL
 After strugguling for a while to compile OpenCvSharp for MacOS I managed to build it using version 4.0.1 in Mojave.
 
 - I installed OpenCv via homebrew (to satisfy the dependencies)
@@ -12,3 +13,7 @@ After strugguling for a while to compile OpenCvSharp for MacOS I managed to buil
  ````
  
  I'll create a nuget package to make this easier, however for now you can download the compiled library if you don't want to build it yourself [here](libOpenCvSharpExtern.dylib)
+
+##Useful links
+
+[Build opencv and yolo with cuda support for MacOs](https://jacobysuh.com/blog/2018/computervision/)
